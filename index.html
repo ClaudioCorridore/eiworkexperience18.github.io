@@ -18,56 +18,138 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-        <div class="container">
-            <a href="/" class="navbar-brand">EI Work Experience</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Menu
-                            <span class="caret"></span>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="themes">
-                            <a class="dropdown-item" href="/">Link 1</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/">Link 2</a>
-                            <a class="dropdown-item" href="/">Link 3</a>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About the project</h4>
+                        <p class="text-muted">The team Diversity has created this website with a good students. We have used different types of languages, we learnt java-script, HTML, CSS and Python over the week. We also have looked at the web design.</p>
+                        <p class="text-muted">Then team is made up of three people these people are Grace Scouler, Evangelos Liapis and Javier Corona. The three of us
+                        had to have good communtication and teamwork. We are on work expericence but we did come across a problem. One problem was
+                        that we found it hard to talk to each other as we didn't know each other very well in the beginning. By the end of the week
+                        it became eaiser to talk to each other as the week went on.</p>
+                        <p class="text-muted">Evangelos had a problem with misplacing a file. Javier didn't have any problems making the website, as he asked questions
+                        to the supervisor. Grace was new to computer science, so found it harder than the other two, but by the end of the week they
+                        were all on the same page.</p>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Menu</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#top-ten" class="text-white">Top 10</a>
+                                </li>
+                                <li>
+                                    <a href="#gallery" class="text-white">Gallery</a>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#help">Help</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                </ul>
-
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/eiworkexperience18/eiworkexperience18.github.io" target="_blank">GitHub Repo</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="page-header" id="banner">
-            <div class="row">
-                <div class="col-lg-8 col-md-7 col-sm-6">
-                    <h1>Project boilerplate</h1>
-                    <p class="lead">Just a simple web page skeleton!</p>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <img src="/imgs/eiwi-logo.svg">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="navbar navbar-dark bg-primary box-shadow">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <strong>My dream destination</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <main role="main">
+        <section class="jumbotron text-center text-light">
+            <div class="container">
+                <h1 class="jumbotron-heading">New york</h1>
+                <p class="lead">Most people think that New York is the capital of the USA, but it’s not, Washington DC is. The weather is nice, July is the
+                hottest month an average and the temperature is 25°C and the coolest in January can be 2°C. Also, in May is known as the
+                hottest month of the year. In New York there are lots of things to do, Empire State building, museums and lots more. They
+                also have good food and lots of restaurants. You can try new food and meet new people. You can order food whenever you want
+                and drink.</p>
+            </div>
+        </section>
+        <ul id="top-ten" class="list-group list-group-flush lead pb-5">
+            <li class="list-group-item"><h2 class="h3">Top 10 must dos in New York</h2></li>
+            <li class="list-group-item"><span class="font-weight-bold">1.</span> Visit the statue of Liberty</li>
+            <li class="list-group-item"><span class="font-weight-bold">2.</span> Experience Broadway</li>
+            <li class="list-group-item"><span class="font-weight-bold">3.</span> Climb the Empire State building</li>
+            <li class="list-group-item"><span class="font-weight-bold">4.</span> Visit the historic Metropolitan Museum of art</li>
+            <li class="list-group-item"><span class="font-weight-bold">5.</span> Go to Times Square</li>
+        </ul>
+        <div id="gallery" class="album py-3 bg-dark text-light">
+            <div class="container">
+                <h2 class="h3">Gallery</h2>
+                <p class="lead">These are pictures of places you can visit in New York. Also, New York is fantastic at night, the view is so amazing that
+                you can only see with your own eyes.</p>
+                <div class="row text-dark">
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="/imgs/broadway.jpg" alt="Boradway">
+                            <div class="card-body">
+                                <p class="card-text">Broadway</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="/imgs/esb.jpg" alt="Empire State Building">
+                            <div class="card-body">
+                                <p class="card-text">Empire State Building</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="/imgs/times-square.jpg" alt="Times Square">
+                            <div class="card-body">
+                                <p class="card-text">Times Square</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="/imgs/central-park.jpg" alt="Central Park">
+                            <div class="card-body">
+                                <p class="card-text">Central Park</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="/imgs/gcs.jpg" alt="Grand Central Station">
+                            <div class="card-body">
+                                <p class="card-text">Grand Central Station</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="/imgs/liberty-island.jpg" alt="Liberty Island">
+                            <div class="card-body">
+                                <p class="card-text">Liberty Island</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap?
+                <a href="../../">Visit the homepage</a> or read our
+                <a href="../../getting-started/">getting started guide</a>.</p>
+        </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
